@@ -1,0 +1,46 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&family=Protest+Riot&family=Roboto+Slab&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: aquamarine;
+    /* margin: auto; */
+    /* padding-top: 2vh; */
+    font-family: 'Roboto Slab', serif;    /* background-color: black; */
+    margin: auto;
+}
+
+section{
+    display: flex;
+    width: 40vw;
+    height: 90vh;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: .7em;
+    border: 2px solid black;
+    padding: 1vh;
+    margin: 1vh;
+    background-color: orange;
+}
+
+div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+button{
+    background-color: lightblue;
+    border-radius: .6em;
+    border: 2px solid black;
+    padding: 6px;
+    margin: .5em;
+}
